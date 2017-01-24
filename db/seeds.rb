@@ -1,0 +1,1 @@
+Comment.create!(name: "Angelica", description: "Leave a comment if you'd like!")
