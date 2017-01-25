@@ -1,24 +1,8 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Hello! Welcome to my personal site, which is still in progress!
+This will eventually be a one page site with a Rails backend while 
+utilizing React on the front end. You will even be able to leave 
+visitor comments :) stay tuned~
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+While you wait, here's a cute [video](https://www.youtube.com/watch?v=WVz8rvIl_vY&t=23s) to keep you entertained
