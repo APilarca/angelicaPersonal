@@ -2,8 +2,14 @@ var NewComments = React.createClass({
 	handleClick() {
 			var name = this.refs.name.value;
 			var description = this.refs.description.value;
-
-			console.log('The name' + name + 'the description' + description);
+			$.ajax({
+				url: '/api/v1/comments',
+				type: 'POST',
+				data: { comment: { name:name, description: description } },
+				success: (comment) => {
+					this.props.handleSubmit(comment);
+				}
+			});
 	},
 
 	render() {
