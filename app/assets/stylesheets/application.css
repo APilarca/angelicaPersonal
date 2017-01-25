@@ -13,3 +13,12 @@
  *= require_tree .
  *= require_self
  */
+
+ .headshot  {
+ 	min-width: 10%;
+ 	width: 15%;
+ 	max-width: 20%;
+ 	/*max-width: 25%;*/
+ 	height: auto;
+ 	border: 1px solid purple;
+ }
