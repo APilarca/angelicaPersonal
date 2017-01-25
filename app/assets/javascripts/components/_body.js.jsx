@@ -15,6 +15,8 @@ var Body = React.createClass({
 	render() {
 		return(
 			<div>
+				<About />
+				<Projects />
 				<AllComments comments={ this.state.comments }/>
 				<NewComments handleSubmit={this.handleSubmit}/>
 			</div>

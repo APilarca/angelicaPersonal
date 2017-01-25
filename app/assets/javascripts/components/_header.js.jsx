@@ -2,7 +2,7 @@ var Header = React.createClass({
 	render() {
 		return(
 			<div>
-				<h1></h1>
+				<a href="https://www.linkedin.com/in/angelica-pilarca">#{asset_path()}</a>
 			</div>
 		)
 	}
