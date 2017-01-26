@@ -1,3 +1,5 @@
+var button = ReactBootstrap.Button;
+
 var NewComments = React.createClass({
 	handleClick() {
 			var name = this.refs.name.value;
